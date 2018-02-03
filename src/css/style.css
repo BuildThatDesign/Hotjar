@@ -443,6 +443,9 @@ a {
 .white {
   color: white; }
 
+li {
+  list-style: none; }
+
 .l-header {
   background-color: #F13C51; }
 
