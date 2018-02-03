@@ -446,6 +446,9 @@ a {
 li {
   list-style: none; }
 
+ul {
+  margin: 0; }
+
 .l-header {
   background-color: #F13C51; }
 
@@ -461,11 +464,17 @@ li {
   display: inline-block;
   margin-top: 13%;
   margin-left: 5%; }
+  .l-hero__figure img {
+    width: 100%; }
 
 .l-hero__content {
   display: inline-block;
   width: 50%;
-  margin-top: 10%; }
+  margin-top: 17%; }
+  .l-hero__content h1 {
+    font-size: 4em; }
+  .l-hero__content p {
+    font-size: 1.4em; }
 
 .l-recording {
   background-color: #F8F8FA;
@@ -509,6 +518,21 @@ li {
 
 .l-solutions__figure {
   margin: 0; }
+  .l-solutions__figure img {
+    width: 100%; }
+
+.l-companies {
+  height: 16em; }
+
+.l-companies__title {
+  text-align: center;
+  font-size: 1.5em; }
+
+.l-companies__figure {
+  margin: 0;
+  text-align: center; }
+  .l-companies__figure img {
+    width: 100%; }
 
 /* Grid System
 -------------------------------------------------------------------------------*/
@@ -588,3 +612,38 @@ li {
 
 .float--right {
   float: right; }
+
+@media screen and (max-width: 1000px) {
+  .l-hero__content {
+    width: 100%;
+    text-align: center; }
+    .l-hero__content p {
+      width: 100%; }
+  .l-hero__figure {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 10%; }
+    .l-hero__figure img {
+      width: 77%; }
+  .l-recording {
+    height: 75em; }
+  .l-recording__figure {
+    width: 100%;
+    margin: 0;
+    margin-top: 9%; }
+  .l-recording__content {
+    width: 100%;
+    margin: 0;
+    margin-top: 15%; }
+    .l-recording__content p {
+      padding-left: 5%;
+      padding-right: 5%;
+      font-size: 1.6em;
+      margin-top: 7%; }
+  .l-recording__title {
+    text-align: center; }
+  .l-testimonials {
+    width: 100%; }
+    .l-testimonials p {
+      font-size: 26px; } }

@@ -10,11 +10,19 @@
   display: inline-block;
   margin-top: 13%;
   margin-left: 5%;
+  img {
+    width: 100%;
+  }
 }
 
 .l-hero__content {
   display: inline-block;
   width: 50%;
-  margin-top: 10%;
-
+  margin-top: 17%;
+  h1 {
+    font-size: 4em;
+  }
+  p {
+    font-size: 1.4em;
+  }
 }
