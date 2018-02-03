@@ -432,10 +432,10 @@ a {
   font-size: 32px; }
 
 .md {
-  font-size: 24px; }
+  font-size: 20px; }
 
 .sm {
-  font-size: 18px; }
+  font-size: 14px; }
 
 .black {
   color: black; }
@@ -466,7 +466,7 @@ a {
 
 .l-recording {
   background-color: #F8F8FA;
-  height: 60em; }
+  height: 50em; }
 
 .l-recording__figure {
   display: inline-block;
@@ -486,6 +486,63 @@ a {
     margin: 0; }
   .l-recording__content h2 {
     font-size: 3.2em; }
+
+.l-testimonials {
+  height: 20em;
+  background-color: #F8F8FA;
+  text-align: center; }
+
+.l-speach-block {
+  display: inline-block; }
+
+/* Grid System
+-------------------------------------------------------------------------------*/
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  /*border: solid red;*/
+  /*background-color: yellow;*/
+  margin-left: 1.6%;
+  /*margin-top: 1%;*/ }
+
+[class*='col-']:first-child {
+  margin-left: 0; }
+
+.col-1 {
+  width: 6.86666666667%; }
+
+.col-2 {
+  width: 15.3333333333%; }
+
+.col-3 {
+  width: 23.8%; }
+
+.col-4 {
+  width: 32.2666666667%; }
+
+.col-5 {
+  width: 40.7333333333%; }
+
+.col-6 {
+  width: 49.2%; }
+
+.col-7 {
+  width: 57.6666666667%; }
+
+.col-8 {
+  width: 66.1333333333%; }
+
+.col-9 {
+  width: 74.6%; }
+
+.col-10 {
+  width: 83.0666666667%; }
+
+.col-11 {
+  width: 91.5333333333%; }
+
+.col-12 {
+  width: 100%; }
 
 .wrap {
   width: 100%; }

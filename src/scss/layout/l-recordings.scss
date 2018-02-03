@@ -1,0 +1,35 @@
+@import "_variables";
+
+
+.l-recording {
+  background-color: $secondry-bg-colour;
+  height: 50em;
+}
+
+.l-recording__figure {
+  display: inline-block;
+  margin: 0;
+  margin-top: 10%;
+  width: 52%;
+
+  img {
+    width: 100%
+  }
+}
+
+.l-recording__content {
+  display: inline-block;
+  float: right;
+  margin-left: 3%;
+  margin-top: 16%;
+  width: 40%;
+
+  figure {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 3.2em;
+  }
+
+}
