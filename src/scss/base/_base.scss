@@ -1,0 +1,85 @@
+@import "reset.scss";
+@import "_variables.scss";
+
+
+
+h1 {
+  font-size: 4.2em;
+  font-family: $font-family;
+  color: $primary-font-colour;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 4.7em;
+  color: $secondry-font-colour;
+  font-family: $font-family;
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 3em;
+  color: $secondry-font-colour;
+  font-family: $font-family;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-family: $font-family;
+  color: $secondry-font-colour;
+  margin: 0;
+}
+
+h6 {
+  font-size: 1.3em;
+  font-family: $font-family;
+  color: $secondry-font-colour;
+  margin: 0;
+}
+
+
+
+p {
+
+  font-family: $font-family;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.large {
+  font-size: 32px;
+}
+
+.md {
+  font-size: 24px;
+}
+
+.sm {
+  font-size: 18px;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+// hr {
+//     /* box-sizing: content-box; */
+//     /* height: 0px; */
+//     overflow: visible;
+//     width: 5%;
+//     border: none;
+//     height: 3px;
+//     /* color: #333; */
+//     background-color: #333;
+// }
